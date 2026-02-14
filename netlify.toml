@@ -1,7 +1,7 @@
 [build]
   base = "valentine-game"
   command = "npm run build"
-  publish = ".next"
+  publish = "valentine-game/.netlify"
 
 [[plugins]]
   package = "@netlify/plugin-nextjs"
